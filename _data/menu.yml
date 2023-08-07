@@ -1,0 +1,12 @@
+primary:
+  - title: Main Menu
+    subfolderitems:
+      - name: "Home"
+        url: "/"
+      - name: "Project on Github"
+        url: "https://github.com/AlexCatze/better-leap-day"
+      - name: "Dropdown example"
+        url: "#"
+        subsubfolderitems:
+          - name: "Link to another psge"
+            url: "/another-page.html"
