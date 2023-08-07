@@ -13,6 +13,7 @@
 
   #banner {
     position: unset;
+    width: 100%;
 
     .menubar ul li {
       display: block;
@@ -78,5 +79,9 @@
 
   #wrapper {
     padding-top: 0px;
+  }
+
+  header {
+    padding: 0px 10px 15px 10px;
   }
 }
