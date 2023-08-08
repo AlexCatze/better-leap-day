@@ -5,7 +5,8 @@ by Matt Graham
 
 @import "normalize";
 @import "fonts";
-@import "rouge-base16-dark";
+@import "base16-theme";
+@import "base16-adapter";
 @import "jekyll-theme-leap-day/dropdown_menu";
 @import "jekyll-theme-leap-day/content";
 @import "jekyll-theme-leap-day/layout";
@@ -93,19 +94,19 @@ blockquote {
 code {
   font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   font-size: 13px;
-  color: #efefef;
-  text-shadow: 0px 1px 0px #000;
+  color: $base05;
+  //text-shadow: 0px 1px 0px #000;
   margin: 0 4px;
   padding: 2px 6px;
-  background: #333;
+  background: $base01;
   border-radius: 2px;
 }
 
 pre {
   padding: 8px 15px;
-  background: #333333;
+  background: $base01;
   border-radius: 3px;
-  border: 1px solid #c7c7c7;
+  border: 1px solid $base03;
   overflow: auto;
   overflow-y: hidden;
 

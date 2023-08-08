@@ -45,7 +45,6 @@ google_analytics: [Your Google Analytics tracking ID]
 
 You can add 2 level menu on Your site with this theme by populating `_data/menu.yml` file. Example:
 
-
 ```yml
 primary:
   - title: Main Menu
@@ -94,10 +93,6 @@ Google has released several iterations to their Google Analytics code over the y
 ## Project philosophy
 
 The Better Leap Day theme is my fork of Leap Day with some improvements. The goal of this project is creating detter version of Leap Day.
-
-## Contributing
-
-Interested in contributing to Better Leap Day? We'd love your help. Leap day is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 
